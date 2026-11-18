@@ -40,8 +40,9 @@ public class LoopExercises {
         // TODO: 4 - Write a for loop to print only even numbers from 1 to 20
         // Hint: Use an if statement with the modulus operator (%) inside the loop,
         //       or increment by 2 starting from 2.
-        for (int n = 0; n <= 20; n += 2){
-            System.out.println(i);
+        for (int n = 0; n <= 20;){
+            n += 2;
+            System.out.println(n);
         }
 
 
